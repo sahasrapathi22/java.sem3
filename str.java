@@ -1,21 +1,15 @@
-import java.util.Scanner;
-public class str {
-    public static void main(String[]args){
-        Scanner sc=new Scanner(System.in);
-        System.out.println("enter the string");
-        String s1=sc.nextLine();
-        String s2=sc.nextLine();
-        s1=s1.toUpperCase();
-        s2=s2.toLowerCase();
-        if(s1.equals(s2)){
-            System.out.println("both strings are equal");
+ class str {
+    public static void main(String[] args){
+        String a = "hello";
+        String b = "HELLO";
+        System.out.println(a.toUpperCase());
+        System.out.println(b.toUpperCase());
 
+        if(a.equals(b)){
+            System.out.println("Both the strings are equal");
         }
         else{
-            System.out.println("both the strings are not equal");
+            System.out.println("both are not equal");
         }
     }
-    
-
-
 }

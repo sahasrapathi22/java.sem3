@@ -1,7 +1,8 @@
-public class logic {
-    public static void main(String[] args) {
+public class LogicalAndExample {
 
-int age = 5;
+public static void main(String[] args) {
+
+int age = 25;
 
 boolean hasLicense = true;
 
@@ -15,6 +16,5 @@ System.out.println("Not eligible to drive.");
 
 }
 }
+
 }
-
-
